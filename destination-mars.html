@@ -109,7 +109,7 @@
           <div class="destination-details">
             <div class="destination-details__img-box">
               <img
-                src="/assets/destination/image-mars.png"
+                src="assets/destination/image-mars.png"
                 alt="moon"
                 class="destination-details__img"
               />
@@ -180,7 +180,7 @@
       </main>
       <footer class="footer"></footer>
     </div>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
     <script>
       function myFunction(x) {
         const destinationDetailsImg = document.querySelector(
@@ -188,10 +188,10 @@
         );
         if (x.matches) {
           // If media query matches
-          destinationDetailsImg.src = "/assets/destination/image-mars.webp";
+          destinationDetailsImg.src = "assets/destination/image-mars.webp";
           console.log(destinationDetailsImg);
         } else {
-          destinationDetailsImg.src = "/assets/destination/image-mars.png";
+          destinationDetailsImg.src = "assets/destination/image-mars.png";
         }
       }
       var x = window.matchMedia("(max-width: 600px)");

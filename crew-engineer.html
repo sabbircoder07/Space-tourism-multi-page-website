@@ -138,7 +138,7 @@
                 </div>
                 <div class="crew-details__img-box">
                   <img
-                  src="/assets/crew/image-anousheh-ansari.png"
+                  src="assets/crew/image-anousheh-ansari.png"
                   alt="Anousheh Ansari"
                   class="crew-details__img"
                 />
@@ -149,7 +149,7 @@
           </main>
           <footer class="footer"></footer>
         </div>
-        <script src="/js/script.js"></script>
+        <script src="js/script.js"></script>
         <script>
           function myFunction(x) {
             const crewDetailsImg = document.querySelector(
@@ -157,10 +157,10 @@
             );
             if (x.matches) {
               // If media query matches
-              crewDetailsImg.src = "/assets/crew/image-anousheh-ansari.webp";
+              crewDetailsImg.src = "assets/crew/image-anousheh-ansari.webp";
               console.log(crewDetailsImg);
             } else {
-              crewDetailsImg.src = "/assets/crew/image-anousheh-ansari.png";
+              crewDetailsImg.src = "assets/crew/image-anousheh-ansari.png";
             }
           }
           var x = window.matchMedia("(max-width: 600px)");
